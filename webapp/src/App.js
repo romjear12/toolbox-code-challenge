@@ -10,15 +10,18 @@ function App() {
     error: null,
   });
 
+  // Add item to start of array
   const addItemToArray = (value) => {
     const newItem = [value, ...state.array];
     setState({ ...state, array: newItem });
   };
 
+  // Reset array list
   const resetArray = () => {
     setState({ ...state, array: [] });
   };
 
+  // Handle state to make API request and response
   const handleFetch = async (text) => {
     setState({ ...state, loading: true });
     try {
@@ -31,6 +34,8 @@ function App() {
     }
   };
 
+  // Fetch API request to get inverted text
+  // GET http://localhost:4000/iecho?text=example
   const fetchReversedText = async (text) => {
     const response = await fetch(`http://localhost:4000/iecho?text=${text}`).then((res) => res.json());
 
