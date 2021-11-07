@@ -1,0 +1,20 @@
+.header {
+  background-color: red;
+  width: 100%;
+}
+
+.wrapper-container {
+  border: 1px solid #ccc;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.btn-link {
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
