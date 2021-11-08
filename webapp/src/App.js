@@ -29,7 +29,6 @@ function App() {
       setState({ ...state, loading: false, resolved: true });
       addItemToArray(reversedText);
     } catch (e) {
-      console.log(e);
       setState({ ...state, loading: false, error: true });
     }
   };
