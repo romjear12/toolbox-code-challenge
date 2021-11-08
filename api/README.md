@@ -14,7 +14,7 @@ GET /iecho?text=example
 
 GET 200 OK { text: "elpmaxe", palindrome: false }
 
-### Instructions
+## Instructions
 
 1. Install npm dependencies
    - npm install

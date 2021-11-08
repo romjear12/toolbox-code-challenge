@@ -9,7 +9,7 @@ Wireframe reference: https://cs1.ssltrust.me/s/me4H6BJjtZAGvzn
 Simple UI to make a request to API REST running on Express.js (PORT 4000).
 You have to write a text inside the input field and click on Send Button. It will send the text to the API and you will get the inverted text. You might send many request to the API and it will show like a list, newest first.
 
-### Instructions
+## Instructions
 
 1. Run API project (folder above)
 2. Install npm dependencies
