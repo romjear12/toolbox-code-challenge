@@ -35,3 +35,15 @@ Open [http://localhost:4000](http://localhost:4000).
 ### `npm test`
 
 Launches the tests with Mocha + Chai + Supertest
+
+To run tests you have to run the project in other console tab, follow instructions:
+
+1. Open your command console
+
+   - $ cd /path/toolbox-code-challenge/api
+   - $ npm start
+
+2. Open another tab on your command console
+
+   - $ cd path /path/toolbox-code-challenge/api
+   - $ npm run test
